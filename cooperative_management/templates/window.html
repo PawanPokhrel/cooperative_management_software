@@ -1,0 +1,13 @@
+
+<html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <body>
+        {% csrf_token %}
+        <div class="d-grid gap-3 col-6 mx-auto">
+            <button class="btn btn-primary" type="button">Create Saving/Loan Type</button>
+            <a href="{% url 'cus_reg' %}"><button class="btn btn-primary" type="button">Create New Customer</button></a>
+            <button class="btn btn-primary" type="button">Old Customer</button>
+            <button class="btn btn-primary" type="button">Load Data</button>
+          </div>
+</body>
+</html>

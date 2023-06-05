@@ -1,0 +1,217 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Customer Registration</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="colorlib.com">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="{% static 'material-design-iconic-font.css'%}">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="{% static 'style.css' %}">
+		<style>
+			/* Chrome, Safari, Edge, Opera */
+			input::-webkit-outer-spin-button,
+			input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+			}
+
+			/* Firefox */
+			input[type=number] {
+			-moz-appearance: textfield;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+            <form action="" id="wizard">
+
+				{% csrf_token %}
+        		<!-- SECTION 1 -->
+                <h2></h2>
+                <section>
+                    <div class="inner">
+						<div class="image-holder">
+							
+						</div>
+						<div class="form-content" >
+							<div class="form-header">
+								<h3>Registration</h3>
+							</div>
+							<p>Please fill Customer details</p>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Name" class="form-control">
+								</div>
+								<div class="form-holder">
+									<input type="Number" placeholder="Contact Number" class="form-control">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Father's name" class="form-control">
+								</div>
+								<div class="form-holder">
+									<input type="text" placeholder="Mother's name" class="form-control">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Grandfather's name" class="form-control">
+								</div>
+								<div class="form-holder">
+									<input type="text" placeholder="Spouse's name" class="form-control">
+								</div>
+							</div>
+
+							<div class="form-row">
+								<div class="form-holder" style="align-self: flex-end; transform: translateY(4px);">
+									<div class="checkbox-tick">
+										<label class="male">
+											<input type="radio" name="gender" value="male" checked> Male<br>
+											<span class="checkmark"></span>
+										</label>
+										<label class="female">
+											<input type="radio" name="gender" value="female"> Female<br>
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+                </section>
+
+				<!-- SECTION 2 -->
+                <h2></h2>
+                <section>
+                    <div class="inner">
+						<div class="image-holder">
+							
+						</div>
+						<div class="form-content" >
+							<div class="form-header">
+								<h3>Registration</h3>
+							</div>
+							<p>Please fill Customer details</p>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Name" class="form-control">
+								</div>
+								<div class="form-holder">
+									<input type="Number" placeholder="Contact Number" class="form-control">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Father's name" class="form-control">
+								</div>
+								<div class="form-holder">
+									<input type="text" placeholder="Mother's name" class="form-control">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Grandfather's name" class="form-control">
+								</div>
+								<div class="form-holder">
+									<input type="text" placeholder="Spouse's name" class="form-control">
+								</div>
+							</div>
+
+							<div class="form-row">
+								<div class="form-holder" style="align-self: flex-end; transform: translateY(4px);">
+									<div class="checkbox-tick">
+										<label class="male">
+											<input type="radio" name="gender" value="male" checked> Male<br>
+											<span class="checkmark"></span>
+										</label>
+										<label class="female">
+											<input type="radio" name="gender" value="female"> Female<br>
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+                </section>
+
+                <!-- SECTION 3 -->
+                <h2></h2>
+                <section>
+                    <div class="inner">
+						<div class="image-holder">
+							
+						</div>
+						<div class="form-content" >
+							<div class="form-header">
+								<h3>Registration</h3>
+							</div>
+							<p>Please fill Customer details</p>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Name" class="form-control">
+								</div>
+								<div class="form-holder">
+									<input type="Number" placeholder="Contact Number" class="form-control">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Father's name" class="form-control">
+								</div>
+								<div class="form-holder">
+									<input type="text" placeholder="Mother's name" class="form-control">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Grandfather's name" class="form-control">
+								</div>
+								<div class="form-holder">
+									<input type="text" placeholder="Spouse's name" class="form-control">
+								</div>
+							</div>
+
+							<div class="form-row">
+								<div class="form-holder" style="align-self: flex-end; transform: translateY(4px);">
+									<div class="checkbox-tick">
+										<label class="male">
+											<input type="radio" name="gender" value="male" checked> Male<br>
+											<span class="checkmark"></span>
+										</label>
+										<label class="female">
+											<input type="radio" name="gender" value="female"> Female<br>
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+                </section>
+            </form>
+		</div>
+
+		<!-- JQUERY -->
+		<script src="{% static 'jquery-3.3.1.min.js' %}"></script>
+
+		<!-- JQUERY STEP -->
+		<script src="{% static 'jquery.steps.js' %}"></script>
+		<script src="{% static 'main.js ' %}"></script>
+		<!-- Template created and distributed by Colorlib -->
+</body>
+</html>
